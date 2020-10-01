@@ -1,0 +1,4 @@
+- hosts: h
+  tasks:
+    - name: test
+      shell: hostname
