@@ -1,0 +1,10 @@
+- name: zabbix-agent
+  src: dj-wasabi.zabbix-agent
+- name: ansible-hardening
+  src: https://github.com/openstack/ansible-hardening.git
+  version: master
+  scm: git
+#- name: asd
+#  src: https://asd/asd.git
+#  version: tag-name
+#  scm: git
